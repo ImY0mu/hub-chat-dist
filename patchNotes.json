@@ -1,0 +1,23 @@
+{
+  "notes": [
+    {
+      "title": "Initial release",
+      "version": "0.0.1",
+      "date": "2021-12-20T22:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": ["Initial release"] },
+        { "title": "Features", "items": 
+          [
+            "Left click on username to tag in chat", 
+            "Right click on username to open their profile in mobile sim", 
+            "Middle Wheel click on username to copyy their user ID",
+            "The chat is stopped in case you scroll to find something you wanted to read",
+            "Windows notification when someone @tags your name",
+            "-> If you click on the notification, it will scroll you to the message",
+            "Emoji autocomplete, you can start of by writing :eyes:, arrow (up/down) navigation between suggested emojis (enter to select)"
+          ]
+        }
+      ]
+    }
+  ]
+}
