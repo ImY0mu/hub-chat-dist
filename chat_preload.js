@@ -65,6 +65,8 @@ const getRequiredScripts = async (url) => {
 
     eval(retrieveFromServer.toString().replace("Alpine.store('chats', data);", "Alpine.store('chats', data); sendData('chatUpdate', JSON.stringify(data));"));
 
+    eval(disconnectFromChat.toString().replace("window", "//window"));
+
 
   `;
   }

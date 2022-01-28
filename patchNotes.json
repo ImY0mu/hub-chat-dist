@@ -1,6 +1,21 @@
 {
   "notes": [
     {
+      "title": "Fixes and improvements",
+      "version": "0.0.2",
+      "date": "2022-01-28T22:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Custom patreon icons will now appear correctly", 
+            "Fixed click to tag after recent update", 
+            "Fixed chat updating after recent update",
+            "Fixed change channel fresh start bug"
+          ] 
+        }
+      ]
+    },
+    {
       "title": "Initial release",
       "version": "0.0.1",
       "date": "2021-12-20T22:00:18.175Z",
