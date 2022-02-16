@@ -54,14 +54,17 @@ const getRequiredScripts = async (url) => {
   if(url.includes('https://simple-mmo.com/chat/public?')){
     script += `
     function sendData(type, data){
+      if(data == undefined || data == null) return console.warn('No data');
       var item = {
         type: type,
         data: data
       }
       window.postMessage(item);
     }
-    eval(updateChatWindow.toString().replace("var timer = null;", "var timer = null; sendData('chatChannel', active_channel);"));
-    eval(updateChatWindow.toString().replace("//Correct chat length if too long", "sendData('chatUpdate', JSON.stringify(Alpine.store('chats')));"));
+
+    eval(listenForMessages.toString().replace("//Correct chat length if too long", "sendData('chatUpdate', JSON.stringify(Alpine.store('chats')));"));
+    
+    eval(updateChatWindow.toString().replace("Alpine.store('loading_icon', true);", "Alpine.store('loading_icon', true); sendData('chatUpdate', JSON.stringify(Alpine.store('chats'))); sendData('chatChannel', active_channel);"));
 
     eval(retrieveFromServer.toString().replace("Alpine.store('chats', data);", "Alpine.store('chats', data); sendData('chatUpdate', JSON.stringify(data));"));
 
