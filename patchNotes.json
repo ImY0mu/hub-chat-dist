@@ -1,6 +1,19 @@
 {
   "notes": [
     {
+      "title": "Improvements",
+      "version": "0.0.4",
+      "date": "2022-02-25T22:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed bug where scrollbar of chat content did not correctly set to bottom",
+            "Fixed server message styling"
+          ] 
+        }
+      ]
+    },
+    {
       "title": "Fixes",
       "version": "0.0.3",
       "date": "2022-02-16T22:00:18.175Z",
