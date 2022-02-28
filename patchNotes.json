@@ -2,6 +2,19 @@
   "notes": [
     {
       "title": "Improvements",
+      "version": "0.0.5",
+      "date": "2022-02-28T22:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Implemented player popup",
+            "Small changes to tooltip design"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Improvements",
       "version": "0.0.4",
       "date": "2022-02-25T22:00:18.175Z",
       "changes": [
