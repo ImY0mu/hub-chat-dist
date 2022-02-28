@@ -7,7 +7,7 @@
       "changes": [
         { "title": "General", "items": 
           [
-            "Implemented player popup",
+            "Implemented player popup - right click on username",
             "Small changes to tooltip design"
           ] 
         }
