@@ -2,6 +2,21 @@
   "notes": [
     {
       "title": "Improvements",
+      "version": "0.0.6",
+      "date": "2022-02-28T22:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Buttons with links now open in Mobile Simulation",
+            "Implemented item popup - click on item name",
+            "Small changes to channel selection",
+            "Small changes to tooltip position"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Improvements",
       "version": "0.0.5",
       "date": "2022-02-28T22:00:18.175Z",
       "changes": [

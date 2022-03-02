@@ -62,6 +62,7 @@ const getRequiredScripts = async (url) => {
       window.postMessage(item);
     }
 
+
     eval(listenForMessages.toString().replace("//Correct chat length if too long", "sendData('chatUpdate', JSON.stringify(Alpine.store('chats')));"));
     
     eval(updateChatWindow.toString().replace("Alpine.store('loading_icon', true);", "Alpine.store('loading_icon', true); sendData('chatUpdate', JSON.stringify(Alpine.store('chats'))); sendData('chatChannel', active_channel);"));
@@ -70,6 +71,8 @@ const getRequiredScripts = async (url) => {
 
     eval(disconnectFromChat.toString().replace("window", "//window"));
 
+    eval(retrieveItem.toString().replace(".then(function(data){", ".then(function(data){ sendData('showItem', JSON.stringify(data));"));
+  
 
   `;
   }
