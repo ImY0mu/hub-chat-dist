@@ -9,6 +9,11 @@
           [
             "Multiple account support"
           ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed pleb badge showing at everyone"
+          ] 
         }
       ]
     },
