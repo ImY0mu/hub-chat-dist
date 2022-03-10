@@ -2,6 +2,18 @@
   "notes": [
     {
       "title": "Multiple accounts support",
+      "version": "0.0.9",
+      "date": "2022-03-10T10:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed trade button leading to attack"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Multiple accounts support",
       "version": "0.0.8",
       "date": "2022-03-07T10:00:18.175Z",
       "changes": [
