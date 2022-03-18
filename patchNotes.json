@@ -7,7 +7,8 @@
       "changes": [
         { "title": "General", "items": 
           [
-            "Changes to Emoji search to fit at smallest resolution"
+            "Changes to Emoji search to fit at smallest resolution",
+            "Message input is now a small textarea (shift + enter = new line)"
           ] 
         },
         { "title": "QoL improvements", "items": 
@@ -18,7 +19,6 @@
             "Send message by mouse click -> auto focus on message input",
             "Closing item/player popup -> auto focus on message input",
             "Emoji autocomplete now shows suggestions after 2 characters instead of 3",
-            "Message input is now a small textarea (shift + enter = new line)",
             "Added keybinds to switch between channels",
             "Added ketbind to open Emoji search"
           ] 
