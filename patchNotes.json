@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "title": "Fixed",
+      "version": "0.0.13",
+      "date": "2022-03-18T12:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed guild button changing channel to global"
+          ] 
+        }
+      ]
+    },
+    {
       "title": "Patreon changes",
       "version": "0.0.12",
       "date": "2022-03-18T12:00:18.175Z",
