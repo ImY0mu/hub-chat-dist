@@ -2,6 +2,23 @@
   "notes": [
     {
       "title": "Fixed",
+      "version": "0.0.14",
+      "date": "2022-04-19T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Added patreon and pleb badge to player popup"
+          ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed patreon popup"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
       "version": "0.0.13",
       "date": "2022-03-19T12:00:18.175Z",
       "changes": [
