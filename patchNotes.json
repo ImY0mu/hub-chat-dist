@@ -2,7 +2,28 @@
   "notes": [
     {
       "title": "Fixed",
-      "version": "0.0.14",
+      "version": "0.0.15",
+      "date": "2022-04-26T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Added staff member badge to player popup",
+            "Added chat drop rewards (alpha, report bugs)",
+            "Added item stats and current stats to item popup"
+          ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed textarea placeholder showing when tagging",
+            "Added missing gold icon to background type item popups",
+            "Fixed tagging at the end of message not being part of the real message content"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
+    "version": "0.0.14",
       "date": "2022-04-19T12:00:18.175Z",
       "changes": [
         { "title": "General", "items": 
