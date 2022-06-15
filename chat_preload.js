@@ -108,9 +108,10 @@ const getRequiredScripts = async (url) => {
 
     setupListeners();
 
+    sendData('blocked_players', JSON.stringify(document.getElementById('smmo-chat')._x_dataStack[0].blocked_players));
 
     eval(listenForMessages.toString().replace("//Correct chat length if too long", "sendData('chatUpdate', JSON.stringify(Alpine.store('chats')));"));
-    
+
     eval(updateChatWindow.toString().replace("Alpine.store('loading_icon', true);", "Alpine.store('loading_icon', true); sendData('chatUpdate', JSON.stringify(Alpine.store('chats'))); sendData('chatChannel', active_channel);"));
 
     eval(retrieveFromServer.toString().replace("Alpine.store('chats', data);", "Alpine.store('chats', data); sendData('chatUpdate', JSON.stringify(data));"));
@@ -118,12 +119,20 @@ const getRequiredScripts = async (url) => {
     eval(disconnectFromChat.toString().replace("window", "//window"));
 
     eval(retrieveItem.toString().replace(".then(function(data){", ".then(function(data){ sendData('showItem', JSON.stringify(data));"));
-  
 
+
+    
+    setTimeout(() => {
+      console.log('Reloading')
+      window.location.reload();
+    }, 60000 * 5);
   `;
   }
   return script;
 }
+
+
+
 
 const getRequiredScriptsAfter = async (url) => {
   var script = "";

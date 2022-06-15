@@ -2,6 +2,19 @@
   "notes": [
     {
       "title": "Fixed",
+      "version": "0.0.16",
+      "date": "2022-06-15T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Blocked players will not show up in chat anymore",
+            "List of blocked players updates every 5 minutes"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
       "version": "0.0.15",
       "date": "2022-04-26T12:00:18.175Z",
       "changes": [
