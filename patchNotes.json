@@ -2,8 +2,20 @@
   "notes": [
     {
       "title": "Fixed",
+      "version": "0.0.16-hotfix",
+      "date": "2022-06-15T12:50:18.175Z",
+      "changes": [
+        { "title": "Bug", "items": 
+          [
+            "Fixed chat not updating after getting blocked players"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
       "version": "0.0.16",
-      "date": "2022-06-15T12:00:18.175Z",
+      "date": "2022-06-15T12:10:18.175Z",
       "changes": [
         { "title": "General", "items": 
           [
