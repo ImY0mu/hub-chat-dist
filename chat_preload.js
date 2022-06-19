@@ -109,11 +109,17 @@ const getRequiredScripts = async (url) => {
     setupListeners();
 
     sendData('blocked_players', JSON.stringify(document.getElementById('smmo-chat')._x_dataStack[0].blocked_players));
+    
+    setTimeout(function(){
+      sendData('chatChannel', active_channel);
+    }, 500);
 
     eval(listenForMessages.toString().replace("//Correct chat length if too long", "sendData('chatUpdate', JSON.stringify(Alpine.store('chats')));"));
 
-    eval(updateChatWindow.toString().replace("Alpine.store('loading_icon', true);", "Alpine.store('loading_icon', true); sendData('chatUpdate', JSON.stringify(Alpine.store('chats'))); sendData('chatChannel', active_channel);"));
-
+    eval(updateChatWindow.toString().replace("Alpine.store('loading_icon', true);", "Alpine.store('loading_icon', true); console.log(active_channel); sendData('chatUpdate', JSON.stringify(Alpine.store('chats')));"));
+    
+    
+    
     eval(retrieveFromServer.toString().replace("Alpine.store('chats', data);", "Alpine.store('chats', data); sendData('chatUpdate', JSON.stringify(data));"));
 
     eval(disconnectFromChat.toString().replace("window", "//window"));
@@ -123,7 +129,7 @@ const getRequiredScripts = async (url) => {
 
     
     setTimeout(() => {
-      console.log('Reloading')
+      console.log('Reloading');
       window.location.reload();
     }, 60000 * 5);
   `;

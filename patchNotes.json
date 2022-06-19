@@ -3,6 +3,18 @@
     {
       "title": "Fixed",
       "version": "0.0.17-hotfix",
+      "date": "2022-06-19T12:50:18.175Z",
+      "changes": [
+        { "title": "Bug", "items": 
+          [
+            "Fixed chat channel changing to global with each blocked players list update"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
+      "version": "0.0.16-hotfix",
       "date": "2022-06-15T12:50:18.175Z",
       "changes": [
         { "title": "Bug", "items": 
