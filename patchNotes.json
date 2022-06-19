@@ -2,7 +2,7 @@
   "notes": [
     {
       "title": "Fixed",
-      "version": "0.0.17-hotfix",
+      "version": "0.0.18-hotfix",
       "date": "2022-06-19T12:50:18.175Z",
       "changes": [
         { "title": "Bug", "items": 
@@ -14,7 +14,7 @@
     },
     {
       "title": "Fixed",
-      "version": "0.0.16-hotfix",
+      "version": "0.0.17-hotfix",
       "date": "2022-06-15T12:50:18.175Z",
       "changes": [
         { "title": "Bug", "items": 
