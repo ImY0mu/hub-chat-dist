@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "title": "Changes",
+      "version": "0.0.19",
+      "date": "2022-07-16T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Added support for Discord Rich Presence"
+          ] 
+        }
+      ]
+    },
+    {
       "title": "Fixed",
       "version": "0.0.18-hotfix",
       "date": "2022-06-19T12:50:18.175Z",
