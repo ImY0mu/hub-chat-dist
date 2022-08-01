@@ -2,6 +2,19 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.20",
+      "date": "2022-08-01T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Added support for new tagging system",
+            "Updated code to work with recent changes to chat"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.19",
       "date": "2022-07-16T12:40:18.175Z",
       "changes": [
