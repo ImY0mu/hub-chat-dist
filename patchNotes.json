@@ -2,6 +2,19 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.21",
+      "date": "2022-08-03T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Reworked message textarea",
+            "Reworked emojis to support the changes"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.20",
       "date": "2022-08-01T12:40:18.175Z",
       "changes": [
