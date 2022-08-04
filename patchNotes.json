@@ -2,6 +2,18 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.22",
+      "date": "2022-08-04T12:40:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed bug where channel would change to Global with each block list update"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.21",
       "date": "2022-08-03T12:40:18.175Z",
       "changes": [

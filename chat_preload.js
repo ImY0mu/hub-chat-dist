@@ -110,9 +110,7 @@ const getRequiredScripts = async (url) => {
 
     sendData('blocked_players', JSON.stringify(document.getElementById('smmo-chat')._x_dataStack[0].blocked_players));
     
-    setTimeout(function(){
-      sendData('chatChannel', active_channel);
-    }, 500);
+    sendData('chatChannel', active_channel);
 
     eval(listenForMessages.toString().replace("//Correct chat length if too long", "sendData('chatUpdate', JSON.stringify(Alpine.store('chats')));"));
 
@@ -130,8 +128,10 @@ const getRequiredScripts = async (url) => {
     
     setTimeout(() => {
       console.log('Reloading');
-      window.location.reload();
-    }, 60000 * 5);
+      setTimeout(() => {
+        window.location.reload();
+      }, 1000);
+    }, 1000 * 60 * 5);
   `;
   }
   return script;
