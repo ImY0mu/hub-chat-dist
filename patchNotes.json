@@ -2,6 +2,26 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.23",
+      "date": "2022-09-07T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Small changes to staff member badge when tagged",
+            "Improved the code",
+            "Removed Trade channel",
+            "Added Advertisement channel"
+          ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed inspect/market buttons when inspecting background"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.22",
       "date": "2022-08-04T12:40:18.175Z",
       "changes": [
