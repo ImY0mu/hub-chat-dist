@@ -2,6 +2,18 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.24",
+      "date": "2022-09-11T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Changes to announcements of found items / birthday gifts / dumped items"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.23",
       "date": "2022-09-07T12:40:18.175Z",
       "changes": [
