@@ -2,6 +2,18 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.25",
+      "date": "2022-09-12T12:03:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed being unable to view user's profile via level up announcements"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.24",
       "date": "2022-09-11T12:40:18.175Z",
       "changes": [
