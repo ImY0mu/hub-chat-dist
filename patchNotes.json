@@ -2,6 +2,18 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.26-hotfix",
+      "date": "2022-09-13T12:03:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Removed some new announcements to prevent errors till further improvements"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.25",
       "date": "2022-09-12T12:03:18.175Z",
       "changes": [
