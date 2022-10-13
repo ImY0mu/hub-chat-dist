@@ -2,6 +2,18 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.27",
+      "date": "2022-10-13T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Small change to the way avatar backgrounds are displayed"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.26-hotfix",
       "date": "2022-09-13T12:03:18.175Z",
       "changes": [
