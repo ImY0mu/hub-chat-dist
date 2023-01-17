@@ -1,0 +1,412 @@
+{
+  "notes": [
+    {
+      "title": "Changes",
+      "version": "0.0.28",
+      "date": "2023-01-17T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Reverted custom announcement messages till they are finished and fully tested out"
+          ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed issue with missing patreon badges"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "version": "0.0.27",
+      "date": "2022-10-13T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Small change to the way avatar backgrounds are displayed"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "version": "0.0.26-hotfix",
+      "date": "2022-09-13T12:03:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Removed some new announcements to prevent errors till further improvements"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "version": "0.0.25",
+      "date": "2022-09-12T12:03:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed being unable to view user's profile via level up announcements"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "version": "0.0.24",
+      "date": "2022-09-11T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Changes to announcements of found items / birthday gifts / dumped items"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "version": "0.0.23",
+      "date": "2022-09-07T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Small changes to staff member badge when tagged",
+            "Improved the code",
+            "Removed Trade channel",
+            "Added Advertisement channel"
+          ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed inspect/market buttons when inspecting background"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "version": "0.0.22",
+      "date": "2022-08-04T12:40:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed bug where channel would change to Global with each block list update"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "version": "0.0.21",
+      "date": "2022-08-03T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Reworked message textarea",
+            "Reworked emojis to support the changes"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "version": "0.0.20",
+      "date": "2022-08-01T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Added support for new tagging system",
+            "Updated code to work with recent changes to chat"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "version": "0.0.19",
+      "date": "2022-07-16T12:40:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Added support for Discord Rich Presence"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
+      "version": "0.0.18-hotfix",
+      "date": "2022-06-19T12:50:18.175Z",
+      "changes": [
+        { "title": "Bug", "items": 
+          [
+            "Fixed chat channel changing to global with each blocked players list update"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
+      "version": "0.0.17-hotfix",
+      "date": "2022-06-15T12:50:18.175Z",
+      "changes": [
+        { "title": "Bug", "items": 
+          [
+            "Fixed chat not updating after getting blocked players"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
+      "version": "0.0.16",
+      "date": "2022-06-15T12:10:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Blocked players will not show up in chat anymore",
+            "List of blocked players updates every 5 minutes"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
+      "version": "0.0.15",
+      "date": "2022-04-26T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Added staff member badge to player popup",
+            "Added chat drop rewards (alpha, report bugs)",
+            "Added item stats and current stats to item popup"
+          ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed textarea placeholder showing when tagging",
+            "Added missing gold icon to background type item popups",
+            "Fixed tagging at the end of message not being part of the real message content"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
+    "version": "0.0.14",
+      "date": "2022-04-19T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Added patreon and pleb badge to player popup"
+          ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed patreon popup"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixed",
+      "version": "0.0.13",
+      "date": "2022-03-19T12:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed guild button changing channel to global"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Patreon changes",
+      "version": "0.0.12",
+      "date": "2022-03-18T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Changes to Emoji search to fit at smallest resolution",
+            "Message input is now a small textarea (shift + enter = new line)"
+          ] 
+        },
+        { "title": "QoL improvements", "items": 
+          [
+            "Emoji search -> auto focus on search bar when opened",
+            "Emoji search -> auto focus on message input when emoji selected",
+            "Change channel -> auto focus on message input",
+            "Send message by mouse click -> auto focus on message input",
+            "Closing item/player popup -> auto focus on message input",
+            "Emoji autocomplete now shows suggestions after 2 characters instead of 3",
+            "Added keybinds to switch between channels",
+            "Added ketbind to open Emoji search"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Patreon changes",
+      "version": "0.0.11-hotfix",
+      "date": "2022-03-17T12:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed patreon icons"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Patreon changes",
+      "version": "0.0.10",
+      "date": "2022-03-17T10:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Updated new patreon icons"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Multiple accounts support",
+      "version": "0.0.9",
+      "date": "2022-03-10T10:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed trade button leading to attack"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Multiple accounts support",
+      "version": "0.0.8",
+      "date": "2022-03-07T10:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Multiple account support"
+          ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed pleb badge showing at everyone"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Improvements",
+      "version": "0.0.7",
+      "date": "2022-03-04T10:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Set max width of username to avoid overflow at smallest resolution",
+            "Small changes to time format of messages",
+            "Username at player popup is smaller at smallest resolution"
+          ] 
+        },
+        { "title": "Bug", "items": 
+          [
+            "Fixed item and player popup visual bug",
+            "Fixed update scroll issue",
+            "Fixed player popup scale visual bug"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Improvements",
+      "version": "0.0.6",
+      "date": "2022-03-02T10:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Buttons with links now open in Mobile Simulation",
+            "Implemented item popup - click on item name",
+            "Small changes to channel selection",
+            "Small changes to tooltip position"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Improvements",
+      "version": "0.0.5",
+      "date": "2022-02-28T22:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Implemented player popup - right click on username",
+            "Small changes to tooltip design"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Improvements",
+      "version": "0.0.4",
+      "date": "2022-02-25T22:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed bug where scrollbar of chat content did not correctly set to bottom",
+            "Fixed server message styling"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixes",
+      "version": "0.0.3",
+      "date": "2022-02-16T22:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed chat updating"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Fixes and improvements",
+      "version": "0.0.2",
+      "date": "2022-01-28T22:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Custom patreon icons will now appear correctly", 
+            "Fixed click to tag after recent update", 
+            "Fixed chat updating after recent update",
+            "Fixed change channel fresh start bug"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Initial release",
+      "version": "0.0.1",
+      "date": "2021-12-20T22:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": ["Initial release"] },
+        { "title": "Features", "items": 
+          [
+            "Left click on username to tag in chat", 
+            "Right click on username to open their profile in mobile sim", 
+            "Middle Wheel click on username to copyy their user ID",
+            "The chat is stopped in case you scroll to find something you wanted to read",
+            "Windows notification when someone @tags your name",
+            "-> If you click on the notification, it will scroll you to the message",
+            "Emoji autocomplete, you can start of by writing :eyes:, arrow (up/down) navigation between suggested emojis (enter to select)"
+          ]
+        }
+      ]
+    }
+  ]
+}
