@@ -2,6 +2,18 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.30",
+      "date": "2023-02-18T12:30:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Added Couch Cat badge and highlight for Paisen and Crazy Fi"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.29",
       "date": "2023-02-18T12:00:18.175Z",
       "changes": [
