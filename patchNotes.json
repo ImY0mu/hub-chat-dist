@@ -13,6 +13,11 @@
             "UI changes",
             "Requires App Hub version 0.0.72+"
           ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed weird patreon badge disappearence"
+          ] 
         }
       ]
     },
