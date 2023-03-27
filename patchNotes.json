@@ -2,6 +2,22 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.31",
+      "date": "2023-02-12712:30:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Changed style library from WindiCSS to TailwindCSS so colours may differ",
+            "Preparations for themes",
+            "You can now close item/player popup by pressing ESCAPE",
+            "UI changes",
+            "Requires App Hub version 0.0.72+"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.30",
       "date": "2023-02-18T12:30:18.175Z",
       "changes": [
