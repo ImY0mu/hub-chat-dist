@@ -2,8 +2,20 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.32",
+      "date": "2023-03-27T12:30:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Fixed Desktop light mode white lines"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.31",
-      "date": "2023-02-12712:30:18.175Z",
+      "date": "2023-03-2712:00:18.175Z",
       "changes": [
         { "title": "General", "items": 
           [
@@ -16,7 +28,7 @@
         },
         { "title": "Bugs", "items": 
           [
-            "Fixed weird patreon badge disappearence"
+            "Fixed weird patreon badge disappearance"
           ] 
         }
       ]
