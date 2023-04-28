@@ -9,6 +9,7 @@
           [
             "Reworked Emoji keyboard to work better :eyes:",
             "Emoji selection is not limited to 8 anymore",
+            "Emoji names are not case sensitive anymore",
             "Improved arrow navigation so the window with emoji selection scrolls with the movement",
             "Emoji keyboard now works anywhere between words split by space"
           ] 
