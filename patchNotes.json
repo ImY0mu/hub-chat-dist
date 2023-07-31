@@ -2,6 +2,19 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "1.0.0",
+      "date": "2023-07-31T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Updated to work with App Hub 1.0.0",
+            "Changed provider of emoji picker variants"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.33",
       "date": "2023-04-28T12:00:18.175Z",
       "changes": [
