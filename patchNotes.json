@@ -9,6 +9,11 @@
           [
             "Updated Staff member badges"
           ] 
+        },
+        { "title": "Bugs", "items": 
+          [
+            "Fixed Admin border"
+          ] 
         }
       ]
     },
