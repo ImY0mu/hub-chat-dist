@@ -24,7 +24,7 @@
       "changes": [
         { "title": "General", "items": 
           [
-            "Changed provider of emoji picker variants",
+            "Changed provider of emoji picker variants"
           ] 
         },
         { "title": "Bugs", "items": 
