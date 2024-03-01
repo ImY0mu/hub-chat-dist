@@ -2,12 +2,28 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.35",
+      "date": "2024-03-01T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": 
+          [
+            "Updated Staff member badges"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.34",
       "date": "2024-02-27T12:00:18.175Z",
       "changes": [
         { "title": "General", "items": 
           [
             "Changed provider of emoji picker variants",
+          ] 
+        },
+        { "title": "Bugs", "items": 
+          [
             "Fixed bug that broke the chat when patreons were missing"
           ] 
         }
