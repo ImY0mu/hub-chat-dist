@@ -2,6 +2,18 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.36",
+      "date": "2024-05-15T12:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Hotfixed chat updating after recent changes to the game"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.35",
       "date": "2024-03-01T12:00:18.175Z",
       "changes": [
