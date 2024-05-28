@@ -138,6 +138,8 @@ const getRequiredScripts = async (url) => {
      * Initialise the chat messages listener.
      */
     function initialiseChat() {
+        window.last_refreshed = new Date().toUTCString(); 
+        
         window.Alpine.effect(() => {
             getChatMessages();
             getBlockedPlayers();
@@ -154,6 +156,9 @@ const getRequiredScripts = async (url) => {
     */ 
     function getChatMessages(){
         let chats = Alpine.store('chats');
+
+        if(chats == null)
+            return;
 
         if(chats[0].id === last_chat_id)
             return;
@@ -178,7 +183,17 @@ const getRequiredScripts = async (url) => {
      * Overwrite the function for retrieving items to show them in chat client.
      */
     function getItemFromPopup(){
-        let item = document.getElementById('item-popup')._x_dataStack[0].item;
+        let element = document.getElementById('item-popup');
+
+        if(!element)
+            return;
+
+        let data_stack = element._x_dataStack;
+
+        if(!data_stack)
+            return;
+        
+        let item = data_stack[0].item;
 
         if(item.id === null)
             return;
@@ -218,7 +233,6 @@ const getRequiredScripts = async (url) => {
     //autoRefresh();
     initialiseChat();
     disableDisconnect();
-    overwriteRetrieveItem();
     
 
   `;

@@ -2,6 +2,19 @@
   "notes": [
     {
       "title": "Changes",
+      "version": "0.0.37",
+      "date": "2024-05-28T12:00:18.175Z",
+      "changes": [
+        { "title": "Bugs", "items": 
+          [
+            "Attempt to fix auto update stopping",
+            "Fixed missing stats"
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "version": "0.0.36",
       "date": "2024-05-15T12:00:18.175Z",
       "changes": [
